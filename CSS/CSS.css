@@ -1,0 +1,6 @@
+:root{
+    --lightyellow: #ffffe0;
+}
+body{
+    background-color: var(--lightyellow);
+}
