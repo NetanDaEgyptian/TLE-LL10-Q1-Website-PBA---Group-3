@@ -1,6 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 :root{
-    --lightyellow: #ffffe0;
+    --lightyellow: #e3a857;
 }
 body{
     background-color: var(--lightyellow);
+}
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: navajowhite;
+    font-size: 30px;
+}
+nav li{
+    padding: 20px;
+}
+*{
+    font-family: "Josefin Sans";
+}
+h{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    padding-inline: 35px;
+}
+li{
+    font-size: 20px;
+    padding-inline: 35px;
 }
