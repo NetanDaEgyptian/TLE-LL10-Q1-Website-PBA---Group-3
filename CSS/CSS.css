@@ -32,8 +32,12 @@ h{
 p{
     font-size: 20px;
     padding-inline: 35px;
+    display: flex;
+    justify-content: center;
 }
 li{
     font-size: 20px;
     padding-inline: 35px;
+    display: flex;
+    justify-content: center;
 }
