@@ -41,3 +41,18 @@ li{
     display: flex;
     justify-content: center;
 }
+.YouTube{
+    color: red;
+}
+.Twitch{
+    color: blueviolet;
+}
+.Discord{
+    color: darkblue;
+}
+.Facebook{
+    color: blue;
+}
+.Twitter{
+    color: cornflowerblue;
+}
