@@ -15,7 +15,7 @@ nav{
 nav a{
     text-decoration: none;
     color: navajowhite;
-    font-size: 30px;
+    font-size: 35px;
 }
 nav li{
     padding: 20px;
@@ -30,13 +30,12 @@ h{
     padding-bottom: 20px;
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
     padding-inline: 35px;
-    display: flex;
     justify-content: center;
 }
 li{
-    font-size: 20px;
+    font-size: 25px;
     padding-inline: 35px;
     display: flex;
     justify-content: center;
@@ -55,4 +54,33 @@ li{
 }
 .Twitter{
     color: cornflowerblue;
+}
+.p1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.p3{
+    display: flex;
+    justify-content: center;
+}
+.p4{
+    display: flex;
+    justify-content: center;
+}
+.date{
+    font-weight: bold;
+}
+img{
+    width: 25%;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
