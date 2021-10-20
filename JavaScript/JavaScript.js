@@ -10,3 +10,13 @@ function date() {
     var datehtml=document.getElementById("date")
     datehtml.innerHTML+=`${date.getMonth()+1}-${date.getDate()}-${date.getFullYear()}`
 }
+var form=document.getElementById("form")
+form.addEventListener("submit",(E)=>{
+    E.preventDefault()
+    var form2=E.target
+    var data=new FormData(form2)
+    fetch(form2.action,{
+        method:form2.method,
+        body:data
+    }).then(alert("Your input is greatly appreciated."))
+})
