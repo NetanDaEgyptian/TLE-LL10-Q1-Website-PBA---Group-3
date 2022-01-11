@@ -1,9 +1,9 @@
 function hovers(elem) {
-    elem.style.color = "#FFD700"
+    elem.style.color = "#faa0a0"
 }
 
 function outs(elem) {
-    elem.style.color = "navajowhite"
+    elem.style.color = "black"
 }
 function date() {
     var date=new Date()

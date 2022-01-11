@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-:root{
-    --lightyellow: #e3a857;
-}
+
 body{
-    background-color: var(--lightyellow);
+    background-color: #ff6961;
 }
 nav{
     display: flex;
     list-style: none;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
 }
 nav a{
     text-decoration: none;
-    color: navajowhite;
+    color: #ff6961;
     font-size: 35px;
 }
 nav li{
-    padding: 20px;
+    padding: 35px;
 }
 *{
     font-family: "Josefin Sans";
 }
-h{
-    font-size: 55px;
+h1{
+    font-size: 50px;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    padding-top: 10px;
 }
 p{
     font-size: 25px;
@@ -36,9 +36,11 @@ p{
 }
 li{
     font-size: 25px;
-    padding-inline: 35px;
+    padding-inline: 55px;
     display: flex;
     justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .YouTube{
     color: red;
@@ -90,4 +92,27 @@ img{
 }
 #form label{
     padding: 8px;
+}
+.container{
+    border: #faa0a0 solid 8px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 44px;   
+}
+#yes {
+    text-align: center;
+}
+@media screen and (max-width: 375px) {
+    nav{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    img{
+        width: 88%;
+    }
 }
