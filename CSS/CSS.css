@@ -61,9 +61,10 @@ li{
     color: cornflowerblue;
 }
 .p1{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
+    line-height: 80px;
 }
 .p2{
     font-size: 50px;
@@ -117,11 +118,12 @@ img{
     width: 100%;
     height: 100%;
 }
+
 .right {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 97%;
+    height: 97%;
 }
 @media screen and (max-width: 375px) {
     nav{
