@@ -162,8 +162,8 @@ img{
 .right {
     display: flex;
     flex-direction: column;
-    width: 97%;
-    height: 97%;
+    width: 51.9%;
+    height: 51.9%;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
